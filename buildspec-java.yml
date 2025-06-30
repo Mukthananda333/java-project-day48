@@ -3,10 +3,7 @@ phases:
   install:
     runtime-versions:
       java: corretto11
-    commands:
-      - echo "Nothing to install"
-
-
+      
   pre_build:
     commands:
       - cd HelloWorldDemo
